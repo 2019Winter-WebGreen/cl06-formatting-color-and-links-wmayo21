@@ -1,0 +1,63 @@
+/*
+*Wendy Mayo
+*4/12/19
+*HTML Structure & Other Cool Stuff
+*/
+
+/* The universal selector */
+*{
+}
+/* Body attributes here */
+body {
+     width:90%;
+    margin: auto;
+    background-color: white;
+    font-family: fantasy,inherit,serif;
+}
+
+header {
+    font-family: fantasy; /* the header font is fantasy */
+    background-color:#FFFAFA;/* background color lightcyan */
+    color:white; /*text color white */
+    text-shadow:  2px 2px 4px #000000; /* h1 should have a shadow */
+}
+h1{
+    text-decoration:  underline;/* the title is underlined*/
+    font-size: 40pt;/* the title has font size of 40pt */
+    text-align: center;/* The header should be center */
+    background-color: #FFCCFF;/*background light pink*/
+}
+
+main {
+    font-family: inherit;/* the main part of the body's font is inherit */
+    background-color: white;/* background color lightink */
+    color: #9999FF; /*text color white */
+    font-size: 14pt;/* the main part of the body's font size is 14 */
+}
+
+footer {
+    font-family: monospace;/* the footer's font is monospace */
+    background-color: #99CCFF;/* background color lightblue */
+    color:white; /*text color darkcyan */
+    font-size: 12pt;
+}/*font size 12 */
+
+#D { width:400xpx; height: 350px;
+    float: left;}
+
+a:link
+    {
+    color:#9999FF;
+    }
+a:visited
+{
+    color:#99CCFF;
+    text-decoration:line-through;
+}
+
+a:hover, a:focus
+{
+    color:white;
+    background-color: darkblue;
+}
+} /* the length of the picture and it should be to the left*/
